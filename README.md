@@ -17,14 +17,14 @@ This project is a simple implementation of the classic Snake game. The player co
 
 * Clone this repository
 * Install Pygame:
-  ````
+  ```
   pip install pygame
   ```
 
 ### Executing program
 
 * Run the main game file:
-  ````
+  ```
   python snake_game.py
   ```
 
@@ -36,7 +36,7 @@ This project is a simple implementation of the classic Snake game. The player co
 
 ## Authors
 
-[Your Name]
+[Nora]
 
 ## Version History
 
