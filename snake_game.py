@@ -132,7 +132,7 @@ def main():
 
         screen.fill(BLACK)
         for segment in snake.body:
-            pygame.draw.rect(screen, GREEN, (segment[0] * GRID_SIZE, segment[1] * GRID_SIZE, GRID_SIZE, GRID_SIZE))
+            pygame.draw.circle(screen, GREEN, (segment[0] * GRID_SIZE + GRID_SIZE // 2, segment[1] * GRID_SIZE + GRID_SIZE // 2), GRID_SIZE // 2)
         pygame.draw.rect(screen, RED, (food[0] * GRID_SIZE, food[1] * GRID_SIZE, GRID_SIZE, GRID_SIZE))
 
         font = pygame.font.Font(None, 36)
