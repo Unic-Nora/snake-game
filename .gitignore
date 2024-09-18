@@ -1,0 +1,26 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Pygame-specific
+*.png
+*.jpg
+*.wav
+*.mp3
+
+# Miscellaneous
+*.log
+*.sqlite3
